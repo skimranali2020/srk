@@ -1,0 +1,87 @@
+/* Register.css */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    font-family: 'Arial', sans-serif; /* Consistent font family */
+  }
+  
+  .register-container {
+    max-width: 400px; /* Set a maximum width */
+    width: 90%; /* Full width for smaller screens */
+    margin: 20px;
+    padding: 40px; /* Increased padding for a spacious layout */
+    border-radius: 12px; /* Rounded corners */
+    background-color: #ffffff; /* White background for the form */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px; /* More space below the heading */
+    font-size: 2em; /* Larger heading */
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600; /* Bold labels */
+    color: #555; /* Slightly darker text for better contrast */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px; /* Increased padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* More rounded corners */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  input:focus {
+    border-color: #4facfe; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5); /* Glow effect */
+  }
+  
+  .btn {
+    background-color: #4facfe; /* Primary button color */
+    color: white;
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 8px; /* More rounded corners */
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .btn:hover {
+    background-color: #00f2fe; /* Lighter button on hover */
+    transform: translateY(-2px); /* Slightly lift button on hover */
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 15px;
+    color: #d9534f; /* Error color */
+    font-weight: bold; /* Bold error message */
+  }
+  
+  /* Additional styling for a cleaner look */
+  @media (max-width: 500px) {
+    .register-container {
+      padding: 20px; /* Reduced padding for smaller screens */
+    }
+  
+    h1 {
+      font-size: 1.5em; /* Adjust heading size for smaller screens */
+    }
+  }
+  

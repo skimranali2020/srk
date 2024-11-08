@@ -1,0 +1,97 @@
+/* General Page Styling */
+.hotels-page {
+    background-color: #f1f8fc;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+  }
+  
+  /* Search Section */
+  .hotel-search-container {
+    background: linear-gradient(135deg, #5cb9ff, #84d3ff);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  .hotel-search-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:hover {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Search Button */
+  .search-btn {
+    grid-column: span 2;
+    padding: 15px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #e65c00;
+    box-shadow: 0px 5px 15px rgba(255, 102, 0, 0.3);
+  }
+  
+  /* Results Section */
+  .hotel-results {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .results-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .no-results {
+    color: #777;
+    font-size: 18px;
+  }
+  
